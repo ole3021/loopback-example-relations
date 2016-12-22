@@ -1,7 +1,10 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "host": "127.0.0.1",
+    "port": "27017",
+    "database": "lb_exp_relaction",
+    "connector": "mongodb"
   },
   "transient": {
     "name": "transient",
